@@ -1,13 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
+  "short_name": "Color Converter",
+  "name": "Color Converter",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html"
-  }
+  },
+  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }
