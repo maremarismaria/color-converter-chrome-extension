@@ -1,0 +1,98 @@
+.wrapper-color-converter {
+  height: 100%;
+  background-color: #E8C93D;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  padding: 0 16px 16px;
+}
+
+.color-converter-shadows {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.color-converter-shadows > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-converter-shadows > div:first-child > div, .color-converter-shadows > div:last-child > div {
+  background-color: #D89F00;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+
+.color-converter-shadows > div:nth-of-type(2) > div {
+  align-self: baseline;
+  border-bottom: 26px solid #D89F00;
+  border-left: 26px solid transparent;
+  border-right: 26px solid transparent;
+  height: 0;
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.color-converter {
+  background-color: rgba(215,52,46,0.8);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 18% 18% 44% 20%;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.color-converter .color-input-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.color-converter .color-input-container input {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  height: 100%;
+  width: 100%;
+}
+
+.color-converter .color-output-label-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(191,191,191);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+
+}
+
+.color-converter .color-output-label-container label{
+  font-family: 'Segoe UI','Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: rgb(191, 191, 191);
+  color: #000;
+}
+
+.color-converter .color-output-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  border-radius: 100px;
+  background-color: #E8C93D;
+  margin: auto 60px;
+}
+
+.color-converter .color-output-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-converter .color-output-container > div > div {
+
+}
